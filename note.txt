@@ -1,0 +1,26 @@
+- Thư viện: 
+npm install axios react-router-dom redux react-redux bootstrap@4.3.1 jquery popper.js
+
+
+- Token: 
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJCb290Y2FtcCAzNiIsIkhldEhhblN0cmluZyI6IjE5LzA3LzIwMjMiLCJIZXRIYW5UaW1lIjoiMTY4OTcyNDgwMDAwMCIsIm5iZiI6MTY2MDQxMDAwMCwiZXhwIjoxNjg5ODcyNDAwfQ.LOuGqORmUbzSj-vrf010cInw8TjYTzoLxS6HI1nQakE
+
+=> NỘI DUNG => MÃ HÓA => ....
+
+encode ( mã hóa )        |           decode ( giải mã )
+
+
+vd: [1,2,3,4] => THUẬT TOÁN A => eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
+
+1/ MÃ HÓA CÓ THỂ TỰ GIẢI MÃ
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9 =>  THUẬT TOÁN A => [1,2,3,4]
+
+2/ MÃ HÕA KHÔNG TỰ GIẢI MÃ ĐC
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9. => KHÔNG GIẢI MÃ
+
+PRIVATE_KEY = "AFFAFAFAFAFAFAFZVZ"
+=> có private key mới giải mã đc
+
+JWT: JSON WEB TOKEN
