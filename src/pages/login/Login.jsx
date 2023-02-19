@@ -14,6 +14,7 @@ export default function Login() {
   });
 
   const handleChange = (event) => {
+    console.log("123");
     const { name, value } = event.target;
 
     setState({
